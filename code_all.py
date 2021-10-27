@@ -17,6 +17,7 @@ fig = go.Figure(data=[
                    high=df.high,
                    low=df.low,
                    close=df.close,
+
                    increasing=dict(line_color='red'),
                    decreasing=dict(line_color='green')
                    )
