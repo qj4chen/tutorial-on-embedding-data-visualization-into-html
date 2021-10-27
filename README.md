@@ -104,12 +104,19 @@ We navigate the position we want to insert the plot.
 
 ![pic](Snipaste_2021-10-27_20-16-22.png)
 
-And we delete the text block and add the following code
+And we delete the text block and add the following code.
 
 ```html
 <iframe scrolling="no" style="border:none;" seamless="seamless" 
-src="https://github.com/qj4chen/tutorial-on-embedding-data-visualization-into-html" 
+src="https://qj4chen.github.io/sample_plot/" 
 height="500" width="100%">
 </iframe>
 ```
+And pay attention to the source here `src="https://qj4chen.github.io/sample_plot/" `. It means you need to create a github repository named `sample_plot` to host the page.
+
+Then again, if you have question about this, feel free to consult to the web for solution. But if you are my wife, please ask me any time and I will fix it to you. Nevertheless, this [post](https://blog.imfing.com/2021/04/html-webpage-embed-plotly/) may be helpful.
+
+# Finally
+Thanks to `plotly` and `Github`, we can now render our analysis to the Magic Liquid Gold in China vividly in our browser.
+![pic](Snipaste_2021-10-27_20-41-11.png)
 
