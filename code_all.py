@@ -2,7 +2,7 @@ import tushare as ts
 import pandas as pd
 import plotly.graph_objects as go
 import plotly.io as pio
-token = '6a721053ea3e70bb52605d6c0972caeda9ff080d3671f69bd8b6b434'
+token = 'replace with your own token'
 pro = ts.pro_api(token)
 df = pro.daily(ts_code='600519.SH', start_date='20000101', end_date=20211027)
 
